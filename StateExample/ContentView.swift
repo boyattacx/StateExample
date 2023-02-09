@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let viewModel = SmartPlayerViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List(Page.allCases) { page in
+                NavigationLink(page.rawValue, value: page)
+            }.navigationDestination(for: Page.self) { page in
+                switch page {
+                case .happyPath: HappyPathView(page: page)
+                case .orientationIssue: OrientationIssueView(page: page)
+                case .stateIssue: StateIssueView(page: page)
+                case .orientationStateIssue: OrientationStateIssueView(page: page)
+                case .solution: SolutionView(page: page, viewModel: viewModel)
+                }
+            }.navigationTitle("Pages")
         }
-        .padding()
     }
 }
 

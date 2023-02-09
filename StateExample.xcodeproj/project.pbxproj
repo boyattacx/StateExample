@@ -11,6 +11,17 @@
 		B582D061299435D6009D822A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D060299435D6009D822A /* ContentView.swift */; };
 		B582D063299435D6009D822A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B582D062299435D6009D822A /* Assets.xcassets */; };
 		B582D066299435D7009D822A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B582D065299435D7009D822A /* Preview Assets.xcassets */; };
+		B582D07029943A0D009D822A /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = B582D06F29943A0D009D822A /* YouTubePlayerKit */; };
+		B582D07429943A26009D822A /* OrientationIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D07329943A26009D822A /* OrientationIssueView.swift */; };
+		B582D07629943B00009D822A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D07529943B00009D822A /* Page.swift */; };
+		B582D07B29944016009D822A /* HappyPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D07A29944016009D822A /* HappyPathView.swift */; };
+		B582D07E299441F2009D822A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D07D299441F2009D822A /* PlayerView.swift */; };
+		B582D081299442E8009D822A /* StateIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D080299442E8009D822A /* StateIssueView.swift */; };
+		B582D0832994449E009D822A /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D0822994449E009D822A /* CounterView.swift */; };
+		B582D088299448A9009D822A /* OrientationStateIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D087299448A9009D822A /* OrientationStateIssueView.swift */; };
+		B582D08C29944AEC009D822A /* SmartPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D08B29944AEC009D822A /* SmartPlayerViewModel.swift */; };
+		B582D08F29944B41009D822A /* SolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D08E29944B41009D822A /* SolutionView.swift */; };
+		B582D09129944BAE009D822A /* SmartPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D09029944BAE009D822A /* SmartPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,16 @@
 		B582D060299435D6009D822A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B582D062299435D6009D822A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B582D065299435D7009D822A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B582D07329943A26009D822A /* OrientationIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationIssueView.swift; sourceTree = "<group>"; };
+		B582D07529943B00009D822A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		B582D07A29944016009D822A /* HappyPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyPathView.swift; sourceTree = "<group>"; };
+		B582D07D299441F2009D822A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		B582D080299442E8009D822A /* StateIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateIssueView.swift; sourceTree = "<group>"; };
+		B582D0822994449E009D822A /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		B582D087299448A9009D822A /* OrientationStateIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationStateIssueView.swift; sourceTree = "<group>"; };
+		B582D08B29944AEC009D822A /* SmartPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlayerViewModel.swift; sourceTree = "<group>"; };
+		B582D08E29944B41009D822A /* SolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionView.swift; sourceTree = "<group>"; };
+		B582D09029944BAE009D822A /* SmartPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B582D07029943A0D009D822A /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +73,8 @@
 		B582D05D299435D6009D822A /* StateExample */ = {
 			isa = PBXGroup;
 			children = (
+				B582D08A29944A08009D822A /* Views */,
+				B582D06C299439DE009D822A /* Pages */,
 				B582D05E299435D6009D822A /* StateExampleApp.swift */,
 				B582D060299435D6009D822A /* ContentView.swift */,
 				B582D062299435D6009D822A /* Assets.xcassets */,
@@ -65,6 +89,94 @@
 				B582D065299435D7009D822A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B582D06C299439DE009D822A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B582D07929943FE6009D822A /* Happy Path */,
+				B582D06D299439E3009D822A /* Orientation Issue */,
+				B582D07F299442A7009D822A /* StateIssue */,
+				B582D08629944894009D822A /* OrientationStateIssue */,
+				B582D08D29944B26009D822A /* Solution */,
+				B582D07529943B00009D822A /* Page.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		B582D06D299439E3009D822A /* Orientation Issue */ = {
+			isa = PBXGroup;
+			children = (
+				B582D07329943A26009D822A /* OrientationIssueView.swift */,
+			);
+			path = "Orientation Issue";
+			sourceTree = "<group>";
+		};
+		B582D07929943FE6009D822A /* Happy Path */ = {
+			isa = PBXGroup;
+			children = (
+				B582D07A29944016009D822A /* HappyPathView.swift */,
+			);
+			path = "Happy Path";
+			sourceTree = "<group>";
+		};
+		B582D07C299441E8009D822A /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				B582D07D299441F2009D822A /* PlayerView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		B582D07F299442A7009D822A /* StateIssue */ = {
+			isa = PBXGroup;
+			children = (
+				B582D080299442E8009D822A /* StateIssueView.swift */,
+			);
+			path = StateIssue;
+			sourceTree = "<group>";
+		};
+		B582D08629944894009D822A /* OrientationStateIssue */ = {
+			isa = PBXGroup;
+			children = (
+				B582D087299448A9009D822A /* OrientationStateIssueView.swift */,
+			);
+			path = OrientationStateIssue;
+			sourceTree = "<group>";
+		};
+		B582D089299449FD009D822A /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				B582D0822994449E009D822A /* CounterView.swift */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
+		B582D08A29944A08009D822A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B582D089299449FD009D822A /* Counter */,
+				B582D07C299441E8009D822A /* Player */,
+				B582D09229944BC8009D822A /* Smart Player */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B582D08D29944B26009D822A /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				B582D08E29944B41009D822A /* SolutionView.swift */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		B582D09229944BC8009D822A /* Smart Player */ = {
+			isa = PBXGroup;
+			children = (
+				B582D08B29944AEC009D822A /* SmartPlayerViewModel.swift */,
+				B582D09029944BAE009D822A /* SmartPlayerView.swift */,
+			);
+			path = "Smart Player";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +195,9 @@
 			dependencies = (
 			);
 			name = StateExample;
+			packageProductDependencies = (
+				B582D06F29943A0D009D822A /* YouTubePlayerKit */,
+			);
 			productName = StateExample;
 			productReference = B582D05B299435D6009D822A /* StateExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +226,9 @@
 				Base,
 			);
 			mainGroup = B582D052299435D6009D822A;
+			packageReferences = (
+				B582D06E29943A0D009D822A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			productRefGroup = B582D05C299435D6009D822A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +256,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B582D061299435D6009D822A /* ContentView.swift in Sources */,
+				B582D08C29944AEC009D822A /* SmartPlayerViewModel.swift in Sources */,
+				B582D07E299441F2009D822A /* PlayerView.swift in Sources */,
 				B582D05F299435D6009D822A /* StateExampleApp.swift in Sources */,
+				B582D081299442E8009D822A /* StateIssueView.swift in Sources */,
+				B582D07629943B00009D822A /* Page.swift in Sources */,
+				B582D08F29944B41009D822A /* SolutionView.swift in Sources */,
+				B582D07B29944016009D822A /* HappyPathView.swift in Sources */,
+				B582D07429943A26009D822A /* OrientationIssueView.swift in Sources */,
+				B582D088299448A9009D822A /* OrientationStateIssueView.swift in Sources */,
+				B582D0832994449E009D822A /* CounterView.swift in Sources */,
+				B582D09129944BAE009D822A /* SmartPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +467,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B582D06E29943A0D009D822A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B582D06F29943A0D009D822A /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B582D06E29943A0D009D822A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B582D053299435D6009D822A /* Project object */;
 }
