@@ -19,9 +19,7 @@
 		B582D081299442E8009D822A /* StateIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D080299442E8009D822A /* StateIssueView.swift */; };
 		B582D0832994449E009D822A /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D0822994449E009D822A /* CounterView.swift */; };
 		B582D088299448A9009D822A /* OrientationStateIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D087299448A9009D822A /* OrientationStateIssueView.swift */; };
-		B582D08C29944AEC009D822A /* SmartPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D08B29944AEC009D822A /* SmartPlayerViewModel.swift */; };
 		B582D08F29944B41009D822A /* SolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D08E29944B41009D822A /* SolutionView.swift */; };
-		B582D09129944BAE009D822A /* SmartPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D09029944BAE009D822A /* SmartPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +35,7 @@
 		B582D080299442E8009D822A /* StateIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateIssueView.swift; sourceTree = "<group>"; };
 		B582D0822994449E009D822A /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		B582D087299448A9009D822A /* OrientationStateIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationStateIssueView.swift; sourceTree = "<group>"; };
-		B582D08B29944AEC009D822A /* SmartPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlayerViewModel.swift; sourceTree = "<group>"; };
 		B582D08E29944B41009D822A /* SolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionView.swift; sourceTree = "<group>"; };
-		B582D09029944BAE009D822A /* SmartPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +153,6 @@
 			children = (
 				B582D089299449FD009D822A /* Counter */,
 				B582D07C299441E8009D822A /* Player */,
-				B582D09229944BC8009D822A /* Smart Player */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,15 +163,6 @@
 				B582D08E29944B41009D822A /* SolutionView.swift */,
 			);
 			path = Solution;
-			sourceTree = "<group>";
-		};
-		B582D09229944BC8009D822A /* Smart Player */ = {
-			isa = PBXGroup;
-			children = (
-				B582D08B29944AEC009D822A /* SmartPlayerViewModel.swift */,
-				B582D09029944BAE009D822A /* SmartPlayerView.swift */,
-			);
-			path = "Smart Player";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B582D061299435D6009D822A /* ContentView.swift in Sources */,
-				B582D08C29944AEC009D822A /* SmartPlayerViewModel.swift in Sources */,
 				B582D07E299441F2009D822A /* PlayerView.swift in Sources */,
 				B582D05F299435D6009D822A /* StateExampleApp.swift in Sources */,
 				B582D081299442E8009D822A /* StateIssueView.swift in Sources */,
@@ -266,7 +251,6 @@
 				B582D07429943A26009D822A /* OrientationIssueView.swift in Sources */,
 				B582D088299448A9009D822A /* OrientationStateIssueView.swift in Sources */,
 				B582D0832994449E009D822A /* CounterView.swift in Sources */,
-				B582D09129944BAE009D822A /* SmartPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StateExample/Preview Content\"";
-				DEVELOPMENT_TEAM = RVZKP45394;
+				DEVELOPMENT_TEAM = 58T6TX6SP7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,7 +408,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StateExample/Preview Content\"";
-				DEVELOPMENT_TEAM = RVZKP45394;
+				DEVELOPMENT_TEAM = 58T6TX6SP7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

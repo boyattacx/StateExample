@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let viewModel = SmartPlayerViewModel()
-
     var body: some View {
         NavigationStack {
             List(Page.allCases) { page in
@@ -20,7 +18,7 @@ struct ContentView: View {
                 case .orientationIssue: OrientationIssueView(page: page)
                 case .stateIssue: StateIssueView(page: page)
                 case .orientationStateIssue: OrientationStateIssueView(page: page)
-                case .solution: SolutionView(page: page, viewModel: viewModel)
+                case .solution: SolutionView(page: page)
                 }
             }.navigationTitle("Pages")
         }
